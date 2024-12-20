@@ -5,7 +5,6 @@ Ce projet est un travail pratique sur la **généricité** en Java. Il permet de
 ---
 
 ## Menu
-
 ![Afficher Menu](captures/afficher-menu.png)
 
 ### 1. Ajouter un nouveau produit dans la liste
