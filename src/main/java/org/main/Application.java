@@ -20,7 +20,7 @@ public class Application {
     }
     public static  void afficherProduits(){
         List<Produit> p= produitService.getAll();
-        System.out.println("p = "+p);
+
         if (!p.isEmpty() ){
             System.out.println("************* PRODUITS *************");
             System.out.printf("%-6s | %-10s | %-20s | %-10s | %-10s | %-8s %n", "ID","Nom","Description","Marque","Prix","Stock");
@@ -49,7 +49,7 @@ public class Application {
         }
         }while (id <1);
         Produit produit =produitService.findById(id);
-        System.out.println("p = "+produit);
+
         if (produit==null){
             System.out.println("Produit non trouvé -_-");
         }else{
@@ -91,7 +91,7 @@ public class Application {
         } while (idChecker != null || id < 1);
 
         p.setId(id);
-        System.out.println("id entregistre p.getId "+p.getId());
+
 
         System.out.println("Entrez le nom du produit: ");
         while (!sc.hasNextLine()){

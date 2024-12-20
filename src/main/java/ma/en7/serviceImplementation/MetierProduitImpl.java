@@ -21,13 +21,13 @@ public class MetierProduitImpl implements IMetier<Produit> {
 
     @Override
     public List<Produit> getAll() {
-        System.out.println("Pr "+ produits);
+
         return produits;
     }
 
     @Override
     public Produit findById(int id) {
-        System.out.println("en : "+produits);
+
         if(produits!= null){
 
         for (Produit produit : produits) {
